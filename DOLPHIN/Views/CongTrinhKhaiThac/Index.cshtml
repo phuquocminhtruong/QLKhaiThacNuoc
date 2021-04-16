@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DOLPHIN.Model.CongTrinhKhaiThac>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/CongTrinhKhaiThac/Create">Thêm dự án mới</a></span>
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách công trình khai thác nước dưới đất</h3>
+
+        <div class="card-tools">
+            <div class="input-group input-group-sm" style="width: 150px;">
+                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body table-responsive p-0">
+        <table class="table table-hover text-nowrap">
+            <thead>
+                <tr>
+                    <th class="text-center">
+                        Mã công trình
+                    </th>
+                    <th class="text-center">
+                        Tên công trình
+                    </th>
+                    <th class="text-center">
+                        Loại công trình
+                    </th>
+                    <th class="text-center">
+                        Cán bộ phụ trách
+                    </th>
+                    <th class="text-center">
+                        Ngày thực hiện
+                    </th>
+                    <th class="text-center">
+                        Thời gian dự kiến
+                    </th>
+                    <th class="text-center">
+                        Mã giấy phép
+                    </th>
+                    <th class="text-center">
+                        Thao tác
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.TenCongTrinh)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.LoaiCongTrinh)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.CanBo.TenCanBo)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NgayThucHien)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.ThoiGianDuKien)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.ToTrinh.Id)
+                        </td>
+                        <td class="text-center">
+                            <span class="badge bg-warning"><a href="/CongTrinhKhaiThac/Edit/@item.Id">Sửa</a></span>
+                            <span class="badge bg-success"><a href="/CongTrinhKhaiThac/Details/@item.Id">Chi tiết</a></span>
+                            <span class="badge bg-danger"><a href="/CongTrinhKhaiThac/Delete/@item.Id">Xóa</a></span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Hiển thị: @Model.Count() bản ghi</div>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-body -->
+</div>

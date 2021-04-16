@@ -1,0 +1,51 @@
+﻿@model DOLPHIN.Model.ToChuc
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="margin:20px">Thêm Tổ chức hành chính</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="TenToChuc" class="control-label">Tên tổ chức</label>
+                        <input asp-for="TenToChuc" class="form-control" />
+                        <span asp-validation-for="TenToChuc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
+                        <input asp-for="DiaChi" class="form-control" />
+                        <span asp-validation-for="DiaChi" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SoDienThoai" class="control-label">Số điện thoại</label>
+                        <input asp-for="SoDienThoai" class="form-control" />
+                        <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaNhanVienQuanLy" class="control-label">Cán bộ quản lý</label>
+                        <select asp-for="MaNhanVienQuanLy"
+                                asp-items="ViewBag.DMCanBo as SelectList">
+                            <option>Chọn cán bộ quản lý</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="/ToChuc/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>
+

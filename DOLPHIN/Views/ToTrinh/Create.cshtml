@@ -1,0 +1,92 @@
+﻿@model DOLPHIN.DTO.ToTrinhDto
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="margin:20px">Thêm tờ trình</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="TenToTrinh" class="control-label">Tên tờ trình (gia hạn/ điều chỉnh/ cấp lại)</label>
+                        <input asp-for="TenToTrinh" class="form-control" />
+                        <span asp-validation-for="TenToTrinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaToChuc" class="control-label">Tổ chức / cá nhân được cấp phép</label>
+                        <select asp-for="MaToChuc"
+                                asp-items="ViewBag.DMToChuc as SelectList">
+                            <option>Chọn tổ chức/ cá nhân</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select asp-for="MaDonViHanhChinh"
+                                asp-items="ViewBag.DMDonViHanhChinh as SelectList">
+                            <option>Chọn vị trí khai thác</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MucDichKhaiThac" class="control-label">Mục đích khai thác, sử dụng nước</label>
+                        <input asp-for="MucDichKhaiThac" class="form-control" />
+                        <span asp-validation-for="MucDichKhaiThac" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TangChuaNuocKhaiThac" class="control-label">Tầng chứa nước khai thác</label>
+                        <input asp-for="TangChuaNuocKhaiThac" class="form-control" />
+                        <span asp-validation-for="TangChuaNuocKhaiThac" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SoGieng" class="control-label">Tổng số giếng khai thác</label>
+                        <input asp-for="SoGieng" class="form-control" />
+                        <span asp-validation-for="SoGieng" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LuongNuocKhaiThac" class="control-label">Tổng lượng nước khai thác (m3/ ngày đêm)</label>
+                        <input asp-for="LuongNuocKhaiThac" class="form-control" />
+                        <span asp-validation-for="LuongNuocKhaiThac" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ThoiHanCapPhep" class="control-label">Thời hạn của giấy phép </label>
+                        <input asp-for="ThoiHanCapPhep" type="datetime" class="form-control" />
+                        <span asp-validation-for="ThoiHanCapPhep" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MucNuocDong" class="control-label">Mức nước động (mm)</label>
+                        <input asp-for="MucNuocDong" type="datetime" class="form-control" />
+                        <span asp-validation-for="MucNuocDong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MucNuocTinh" class="control-label">Mức nước tĩnh (mm)</label>
+                        <input asp-for="MucNuocTinh" type="datetime" class="form-control" />
+                        <span asp-validation-for="MucNuocTinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LuuLuongNuoc" class="control-label">Lưu lượng nước (m3/s)</label>
+                        <input asp-for="LuuLuongNuoc" type="datetime" class="form-control" />
+                        <span asp-validation-for="LuuLuongNuoc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ChatLuongNuoc" class="control-label">Chất lượng nước (ppm)</label>
+                        <input asp-for="ChatLuongNuoc" type="datetime" class="form-control" />
+                        <span asp-validation-for="ChatLuongNuoc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="/QuanTrac/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>
+

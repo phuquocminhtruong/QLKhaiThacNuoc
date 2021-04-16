@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DOLPHIN.Model.QuanTrac>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<span class="badge bg-primary" style="font-size:20px ; margin-left:20px"><a href="/QuanTrac/Create">Thêm mẫu quan trắc mới</a></span>
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách mẫu quan trắc</h3>
+
+        <div class="card-tools">
+            <div class="input-group input-group-sm" style="width: 150px;">
+                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-default">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body table-responsive p-0">
+        <table class="table table-hover text-nowrap">
+            <thead>
+                <tr>
+                    <th class="text-center">
+                        Mã quan trắc
+                    </th>
+                    <th class="text-center">
+                        Mức nước tĩnh
+                    </th>
+                    <th class="text-center">
+                        Mức nước động
+                    </th>
+                    <th class="text-center">
+                        Lưu lượng nước
+                    </th>
+                    <th class="text-center">
+                        Chất lượng nước
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.MucNuocTinh) mm
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.MucNuocDong) mm
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.LuuLuong) m3/s
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.ChatLuongNuoc) ppm
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-sm-12 col-md-5">
+                <div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Hiển thị: @Model.Count() bản ghi</div>
+            </div>
+        </div>
+    </div>
+    <!-- /.card-body -->
+</div>

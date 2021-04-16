@@ -1,0 +1,49 @@
+﻿@model DOLPHIN.Model.QuanTrac
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="margin:20px">Thêm mẫu quan trắc</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="MucNuocTinh" class="control-label">Mực nước tĩnh(mm)</label>
+                        <input asp-for="MucNuocTinh" class="form-control" />
+                        <span asp-validation-for="MucNuocTinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MucNuocDong" class="control-label">Mức nước động(mm)</label>
+                        <input asp-for="MucNuocDong" class="form-control" />
+                        <span asp-validation-for="MucNuocDong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LuuLuong" class="control-label">Lưu lượng nước(m3/s)</label>
+                        <input asp-for="LuuLuong" class="form-control" />
+                        <span asp-validation-for="LuuLuong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ChatLuongNuoc" class="control-label">Chất lượng nước(ppm)</label>
+                        <input asp-for="ChatLuongNuoc" class="form-control" />
+                        <span asp-validation-for="ChatLuongNuoc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="/QuanTrac/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>
+

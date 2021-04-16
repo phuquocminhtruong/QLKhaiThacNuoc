@@ -1,0 +1,749 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "projectName": "DOLPHIN.DTO",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
+        "projectName": "DOLPHIN.Exceptions",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "projectName": "DOLPHIN.Helpers",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+        "projectName": "DOLPHIN.Mapping",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "projectName": "DOLPHIN.Model",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "projectName": "DOLPHIN.Repository",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "projectName": "DOLPHIN.Service",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.5, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
+        "projectName": "DOLPHIN.WebApi",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
+        "projectName": "DOLPHIN",
+        "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\DOLPHIN.csproj",
+        "packagesPath": "C:\\Users\\minht\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.DTO\\DOLPHIN.DTO.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Exceptions\\DOLPHIN.Exceptions.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Helpers\\DOLPHIN.Helpers.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Mapping\\DOLPHIN.Mapping.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Model\\DOLPHIN.Model.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Repository\\DOLPHIN.Repository.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.Service\\DOLPHIN.Service.csproj"
+              },
+              "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj": {
+                "projectPath": "C:\\Users\\minht\\Desktop\\Project_Ql\\QLKhaiThacNuoc\\CLONE_QLNBD\\DOLPHIN.WebApi\\DOLPHIN.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

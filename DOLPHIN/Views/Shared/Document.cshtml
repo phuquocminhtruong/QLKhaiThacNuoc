@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Document";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card card-row card-default">
+    <div class="card-header bg-info">
+        <h3 class="card-title">
+            Tài liệu hướng dẫn cài đặt
+        </h3>
+    </div>
+    <div class="card-body">
+        <div class="card card-light card-outline">
+            <div class="card-header">
+                <h5 class="card-title">Bước 1</h5>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-tool btn-link">#1</a>
+                    <a href="#" class="btn btn-tool">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>
+                    Các phần mềm cần cài đặt: Visual studio 2019 , xampp, Git
+                    Clone code từ địa chỉ: https://github.com/nguyenbaquang2261998/QLKhaiThacNuoc/tree/master
+                </p>
+            </div>
+        </div>
+        <div class="card card-light card-outline">
+            <div class="card-header">
+                <h5 class="card-title">Bước 2</h5>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-tool btn-link">#1</a>
+                    <a href="#" class="btn btn-tool">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>
+                    Pull code branch master
+                </p>
+            </div>
+        </div>
+        <div class="card card-light card-outline">
+            <div class="card-header">
+                <h5 class="card-title">Bước 3</h5>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-tool btn-link">#1</a>
+                    <a href="#" class="btn btn-tool">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>
+                    Update database
+
+                    - Vào file Startup.cs thay IServiceProvider thành void
+
+                    Sau đó comment dòng return lại.
+
+                    - Tiếp đến vào file Program.cs comment từ dòng 15-22 sau đó mở comment dòng 23-33.
+                    - Build lại project.
+                    - Trong tab Package manager console
+                    Chọn Default project như hình trong khung đỏ
+                    Thực hiện lệch Update-Database
+
+                    Sau khi cập nhật Database thành công. Quay lại file Program.cs và Starup.cs để Undo lại hiện trạng ban đầu.
+                </p>
+            </div>
+        </div>
+        <div class="card card-light card-outline">
+            <div class="card-header">
+                <h5 class="card-title">Bước 4</h5>
+                <div class="card-tools">
+                    <a href="#" class="btn btn-tool btn-link">#1</a>
+                    <a href="#" class="btn btn-tool">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <p>
+                    Build Project xem có success không.
+                    Run Project
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+

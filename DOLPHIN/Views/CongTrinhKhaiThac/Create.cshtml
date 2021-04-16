@@ -1,0 +1,62 @@
+﻿@model DOLPHIN.Model.CongTrinhKhaiThac
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="margin:20px">Thêm Công trình khai thác</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="TenCongTrinh" class="control-label">Tên công trình khai thác</label>
+                        <input asp-for="TenCongTrinh" class="form-control" />
+                        <span asp-validation-for="TenCongTrinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LoaiCongTrinh" class="control-label">Loại công trình khai thác</label>
+                        <input asp-for="LoaiCongTrinh" class="form-control" />
+                        <span asp-validation-for="LoaiCongTrinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaCanBoQuanLy" class="control-label">Cán bộ quản lý</label>
+                        <select asp-for="MaCanBoQuanLy"
+                                asp-items="ViewBag.DMCanBo as SelectList">
+                            <option>Chọn cán bộ quản lý</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MaGiayPhep" class="control-label">Mã giấy phép khai thác</label>
+                        <select asp-for="MaGiayPhep"
+                                asp-items="ViewBag.DMGiayPhep as SelectList">
+                            <option>Chọn cán bộ quản lý</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NgayThucHien" class="control-label">Ngày thực hiện</label>
+                        <input asp-for="NgayThucHien" class="form-control" />
+                        <span asp-validation-for="NgayThucHien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ThoiGianDuKien" class="control-label">Thời gian dự kiến</label>
+                        <input asp-for="ThoiGianDuKien" class="form-control" />
+                        <span asp-validation-for="ThoiGianDuKien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="/CongTrinhKhaiThac/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>

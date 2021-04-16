@@ -1,0 +1,38 @@
+﻿@model DOLPHIN.Model.DonViHanhChinh
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="margin:20px">Thêm đơn vị hành chính</h2>
+
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-4">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="TenDonViHanhChinh" class="control-label">Tên đơn vị</label>
+                        <input asp-for="TenDonViHanhChinh" class="form-control" />
+                        <span asp-validation-for="TenDonViHanhChinh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ToaDo" class="control-label">Tọa độ hành chính</label>
+                        <input asp-for="ToaDo" class="form-control" />
+                        <span asp-validation-for="ToaDo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="/DonViHanhChinh/Index" class="btn btn-primary" style="margin-left:10px">Quay lại</a>
+</div>
